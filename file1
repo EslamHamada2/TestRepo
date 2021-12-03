@@ -3,5 +3,8 @@ cd github
 git init
 touch file1
 git add file1
-git commit -m "creating the 1st repo and adding file1 to it"
-git branch -M main 
+git commit -m "initializing 1st repo and adding file1 to it"
+git remote add origin git@github.com:EslamHamada2/TestRepo.git  #link of the online repo
+ ssh-keygen -t rsa -b 4069 -C "eslam_hamada@outlook.com"
+ cat /home/eslam/.ssh/id_rsa.pub                    #adding the key to the online repo then
+ git push origin master
