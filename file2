@@ -20,3 +20,14 @@ git branch -d branchname
 remotely:
 git push origin :branchname
 -----------------------------------------------------------------------------------------------
+git tag -a v1.4 -m "version 1.4.0"
+git show v1.4
+git push origin v1.4
+-----------------------------------------------------------------------------------------------
+To list tags locally:
+git tag
+To remove tag locally:
+git tag -d tagname
+To remove tag remotely:
+git  push origin  --delete tagname
+-----------------------------------------------------------------------------------------------
