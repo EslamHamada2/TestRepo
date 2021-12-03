@@ -16,7 +16,7 @@ git branch -r
 -----------------------------------------------------------------------------------------------
 Removing branches:
 Locally:
-git branch -D branchname
+git branch -d branchname
 remotely:
 git push origin :branchname
 -----------------------------------------------------------------------------------------------
