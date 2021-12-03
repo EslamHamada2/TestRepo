@@ -1,0 +1,7 @@
+mkdir Github
+cd github
+git init
+touch file1
+git add file1
+git commit -m "creating the 1st repo and adding file1 to it"
+git branch -M main 
